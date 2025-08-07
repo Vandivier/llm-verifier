@@ -22,3 +22,5 @@ with your real code to test and the related tests, now run unit tests and lintin
 
 1. for JS and TS this is `npm run test` and `npm run lint`
 2. for other languages, see the README.md file within the directory.
+
+In addition to these technical validations, we also encourage you to use an AI assistant for review as well. Using this tool inside of Cursor composer is a nice IDE-based workflow to add semantic review.

@@ -1,0 +1,11 @@
+[project]
+name = "llm-verifier-python"
+version = "0.1.0"
+description = "Rapidly QA Python code"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mypy>=1.17.1",
+    "pytest>=8.4.1",
+    "ruff>=0.12.7",
+]
