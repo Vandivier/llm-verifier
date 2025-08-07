@@ -17,9 +17,9 @@ we use mypy, ruff, and pytest for type checking, linting, and test running.
 you can now run the example file validations:
 
 ```bash
-pytest main_test_example.py
-mypy main_example.py
-ruff check main_example.py
+uv run pytest main_test_example.py
+uv run mypy main_example.py
+uv run ruff check main_example.py
 ```
 
 target your local files without the example substring in the file name to similarly review them.
